@@ -52,10 +52,6 @@ To run this project locally, you need:
 
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request. Any suggestions or improvements are welcome!
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) for providing the text-to-speech functionality.
