@@ -5,6 +5,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    transition: background 0.3s, color 0.3s;
 }
 
 .container {
@@ -14,6 +15,21 @@ body {
     align-items: center;
     justify-content: center;
     background-image: linear-gradient(90deg, #161578, #b81055);
+}
+
+.dark-mode {
+    background: #1a1a1a;
+    color: white;
+}
+
+.dark-mode-input {
+    background-color: #333;
+    color: white;
+    border: 1px solid #777;
+}
+
+.dark-mode-btn {
+    background-image: linear-gradient(90deg, #444, #222);
 }
 
 .app-container {
@@ -38,13 +54,28 @@ body {
     padding: 0 1rem;
 }
 
-.text-control {
+.text-control, .file-upload {
     padding: 0.5rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
     background-color: #3f464a52;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 10px;
+}
+
+.voice-dropdown {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dark-mode .voice-dropdown {
+    background-color: #333;
+    color: white;
+    border: 1px solid #777;
 }
 
 .text-control:focus-visible {
@@ -63,6 +94,11 @@ body {
     color: #fff;
     cursor: pointer;
     transition: all 0.25s;
+    margin-top: 10px; 
+}
+
+#toggleDarkMode {
+    margin-top: 15px;  
 }
 
 .btn:hover {
