@@ -6,6 +6,7 @@ The **Text to Speech Converter** is a simple web application that allows users t
 - User-friendly interface for text input
 - Converts entered text into speech using browser capabilities
 - Displays error messages for invalid inputs
+- Can toggle dark mode as well.
 - Responsive design that works on various screen sizes
 
 ## Technologies Used
@@ -38,9 +39,11 @@ To run this project locally, you need:
 
 ### Usage
 
-1. Enter the text you want to convert into speech in the text area.
-2. Click on the "Play Converted Sound" button to listen to the speech.
-3. If no text is entered, an error message will prompt you to enter text.
+1. Enter the text or upload the file you want to convert into speech in the text area or by clicking on file choose button.
+2. Select from various voices from the dropdown.
+3. Click on the "Play Converted Sound" button to listen to the speech.
+4. Click on the "Toggle Dark Mode" button to change to the dark mode.
+5. If no text is entered, an error message will prompt you to enter text.
 
 ## Code Structure
 
